@@ -1,0 +1,132 @@
+body{
+ display: flex;
+ justify-content: center;
+ margin: 0 0 0 0;
+}
+a{
+  text-decoration: none;
+}
+.header{
+  background-image: url(./assets/img/bg-image-wrapper.jpg);
+  width: 1600px;
+  height: 744px;
+}
+.nav{
+  display: flex;
+  justify-content: center;
+  margin-top: 26px;
+  margin-left: -15px;
+}
+.about, .Syllabus, .projects, .FAQ {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 140%;
+  color: #FFFFFF;
+  opacity: 0.8;
+  align-self: center;
+}
+.about:hover,.Syllabus:hover,.projects:hover,.FAQ:hover {
+  color: red;
+  text-decoration: underline;
+  font-weight: 500;
+  font-size: 16px;
+  transition: 0.5s;
+}
+.about:active,.Syllabus:active,.projects:active,.FAQ:active{
+  color: #1F5BF5;
+}
+
+.Syllabus{
+  margin-right: 100px;
+}
+.about{
+  margin-right: 85px;
+  text-decoration: underline;
+}
+.projects{
+  margin-left: 101px;
+}
+.FAQ{
+  margin-left: 83px;
+}
+.slogan{
+  display: flex;
+  justify-content: center;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 75px;
+  letter-spacing: 4.5px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-top: 160px;
+  margin-left: 4px;
+  padding-top: 0px;
+}
+.wrapper-motto{ 
+  display: flex;
+  justify-content: center;
+  margin-top: -38px;
+  margin-left: 3px;
+}
+.motto{
+  width: 504px;
+  height: 50px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  text-align: center;
+  color: #FFFFFF;
+  margin-top:58px;
+}
+.wrapper-link_centr{
+  display: flex;
+  justify-content: center;
+}
+.wrapper-link_started{
+  margin-top: 31px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 184px;
+  height: 46px;
+  background: #00AFDB;
+}
+.getStarted {
+  text-align: center;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.wrapper_contacts{
+  display: flex;
+  justify-content: center;
+  margin-top: 183px;
+}
+.contacts{
+  width: 170px;
+  height: 20px;
+  box-sizing: border-box;
+  display: flex;
+}
+.email, .facebook, .insta{
+  margin-right: 30px;
+}
+.email:hover, .facebook:hover, .insta:hover, .youtube:hover {
+   filter: brightness(0.25); 
+}
+
+
+.smart-design{
+  min-height: 842px;
+  background-color: white;
+}
